@@ -17,7 +17,7 @@ class MainWindow(QWidget):
     def __init__(self, default_value=7, min_value=1, max_value=90):
         super().__init__()
 
-        self.setWindowTitle("PyQt Timer")
+        self.setWindowTitle("Timer")
 
         lcd = QLCDNumber()
         lcd.display(default_value)
